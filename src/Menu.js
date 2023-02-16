@@ -4,11 +4,13 @@ import { NavLink } from 'react-router-dom';
 const Menu = () => {
     return (
         <div className='menu'>
+
             <ul>
                 <NavLink to='/'>
-                <li>Acceuil</li>
+                <li>Acceuil</li>   
                 </NavLink>
                 <NavLink to='/Apropos'>
+
                 <li>Apropos</li>
                 </NavLink>
                 <NavLink to='/Contact'>
