@@ -1,7 +1,8 @@
-div{
+.menu{
     background: rgb(157, 147, 222) ;
     height: 100px; 
 }
+
 ul{
     list-style-type: none;
     height: 100%;
@@ -29,4 +30,3 @@ img{
     margin-left: 40 px;
     margin-right: 40 px;
 }
-
