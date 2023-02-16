@@ -6,3 +6,13 @@
 h3{
  text-align: center;   
 }
+img{
+    height: 300px; 
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+
+ 
+}
