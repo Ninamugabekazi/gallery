@@ -6,7 +6,7 @@ import Apropos from './pages/Apropos';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Services from './pages/Services'; 
-import Erreur from './pages/Erreur';
+
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
   <Route path='/Contact' element={<Contact/>}/>
   <Route path='/Portfolio' element={<Portfolio/>}/>
   <Route path='/Services' element={<Services/>}/>
-  <Route path='*' element={<Erreur/>}/>
+ 
 </Routes>
 </BrowserRouter>
  </div>
