@@ -6,11 +6,10 @@ const Menu = () => {
         <div className='menu'>
 
             <ul>
-                <NavLink to='/'>
+                <NavLink to='/gallery'>
                 <li>Acceuil</li>   
                 </NavLink>
                 <NavLink to='/Apropos'>
-
                 <li>Apropos</li>
                 </NavLink>
                 <NavLink to='/Contact'>

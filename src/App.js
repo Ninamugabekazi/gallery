@@ -5,7 +5,7 @@ import Acceuil from './pages/Acceuil';
 import Apropos from './pages/Apropos';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import Services from './pages/Services';
+import Services from './pages/Services'; 
 import Erreur from './pages/Erreur';
 
 
@@ -14,7 +14,7 @@ function App() {
  <div className='App'>
 <BrowserRouter>
 <Routes>
-  <Route path='/' element={<Acceuil/>}/>
+  <Route path='/gallery' element={<Acceuil/>}/>
   <Route path='/Apropos' element={<Apropos/>}/>
   <Route path='/Contact' element={<Contact/>}/>
   <Route path='/Portfolio' element={<Portfolio/>}/>
